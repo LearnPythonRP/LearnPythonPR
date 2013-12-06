@@ -7,7 +7,8 @@ __author__ = 'Agent 711'
 # This script Must user 5 different types of operators
 # The script must be something useful. In programming you can be given the material but it is up to you to create a program
 # Have fun!
-
+decision = "y"
+while decision == "y":
 print ("Welcome to Ancient Astronauts")
 print ("You wake up in and get out of bed and are under attack by another ship and you can not tell who it is and you "
        "run to the caption to find him dead along with all of the other of your crew members you run to and escape pod "
@@ -38,8 +39,9 @@ choice = input (">>> ")
 if choice == "kill dwarf":
      print("Good job you killed the dwarf and took his ship")
 elif choice == "befriend dwarf":
-     print("The dwarf killed you. Game Over")
+     decision = input("The dwarf killed you. Game Over play again y/n")
+     
 elif choice == "kill giant":
-    print ("You failed to kill the giantand ended up dieing. Game Over would you like to play again y/n")
+    decision = input("You failed to kill the giantand ended up dieing. Game Over would you like to play again y/n")
 elif choice == "befriend giant":
     print  ("The giant turned out to be really friendly and he allows you aboard his ship and he introduces you to his two friends who are dwarfs.")
