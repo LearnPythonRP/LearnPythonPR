@@ -20,10 +20,11 @@ print ("You have two choices to go North or West to the North there is a bright 
        "that remind you of a belt")
 print (" ")
 help = input ("Please type everything in lower case")
+choice = input (">>> ")
 
-north = input ("The trip to the star is longer than you thought it would be and you realize your you ship is low on energy"
+if choice == "north":
+    print ("The trip to the star is longer than you thought it would be and you realize your you ship is low on energy"
                "so you head to the nearest planet to refuel by harvesting the planets radioactivity.")
-west = input ("You travel to your ship is inline with the three stars you see a ship that looks a lot like "
-              "One of the long distance fliers that was aboard your mothership so you hed in its direction hoping it "
-              "would see you and pick you up.")
-if north == 
+elif choice == "west":
+    print ("You travel to your ship is inline with the three stars you see a ship that looks a lot like "
+              "One of the long distance fliers that was aboard your mothership so you hed in its direction hoping it would see you and pick you up.")
