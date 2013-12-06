@@ -23,8 +23,12 @@ help = input ("Please type everything in lower case")
 choice = input (">>> ")
 
 if choice == "north":
-    print ("The trip to the star is longer than you thought it would be and you realize your you ship is low on energy"
-               "so you head to the nearest planet to refuel by harvesting the planets radioactivity.")
+    print ("The trip to the star is longer than you thought it would be and you realize your you ship is low on energy. ""To the west the is a blue planet and to the east there is a red planet you know either one has the right amout of radiation but you don't know about the life forms.")
 elif choice == "west":
     print ("You travel to your ship is inline with the three stars you see a ship that looks a lot like "
-              "One of the long distance fliers that was aboard your mothership so you hed in its direction hoping it would see you and pick you up.")
+"One of the long distance fliers that was aboard your mothership so you hed in its direction hoping it would see you and pick you up.")
+choice = input (">>> ")
+if choice ==  "west":
+    print ("You arrive at the blue planet and as you are refueling you see a large ship so you walk over to it and see a large alien you do not know if it is friendly or not should you kill it or try to befriend it")
+elif choice == "east":
+    print ("As you try to land on the red planet you crash your ship but you are in luck there is a bigger nicer ship than your excape pod. You walk up to it and see an alien dwarf you do not know if it is friendly or not should you kill it or try to befriend it?")
