@@ -19,7 +19,7 @@ print (" ")
 print ("You have two choices to go North or West to the North there is a bright star and to the West there is three stars"
        "that remind you of a belt")
 print (" ")
-help = input ("Please type everything in lower case")
+help = input ("Please type everything in lower case now please hit enter.")
 choice = input (">>> ")
 
 if choice == "north":
@@ -28,7 +28,18 @@ elif choice == "west":
     print ("You travel to your ship is inline with the three stars you see a ship that looks a lot like "
 "One of the long distance fliers that was aboard your mothership so you hed in its direction hoping it would see you and pick you up.")
 choice = input (">>> ")
+
 if choice ==  "west":
-    print ("You arrive at the blue planet and as you are refueling you see a large ship so you walk over to it and see a large alien you do not know if it is friendly or not should you kill it or try to befriend it")
+    print ("You arrive at the blue planet and as you are refueling you see a large ship so you walk over to it and see a large alien you do not know if it is friendly or not should you kill giant or try to befriend giant")
 elif choice == "east":
-    print ("As you try to land on the red planet you crash your ship but you are in luck there is a bigger nicer ship than your excape pod. You walk up to it and see an alien dwarf you do not know if it is friendly or not should you kill it or try to befriend it?")
+    print ("As you try to land on the red planet you crash your ship but you are in luck there is a bigger nicer ship than your excape pod. You walk up to it and see an alien dwarf you do not know if it is friendly or not should you kill dwarf or try to befriend dwarf ?")
+    choice = input (">>> ")
+
+ if choice == "kill dwarf":
+     print ("Good job you killed the dwarf and took his ship")
+ elif choice == "befriend dwarf":
+      print ("The dwarf killed you. Game Over would you like to play again y/n")
+elif choice == "kill giant":
+    print ("You failed to kill the giantand ended up dieing. Game Over would you like to play again y/n")
+elif choice == "befriend giant":
+    print  ("The giant turned out to be really friendly and he allows you aboard his ship and he introduces you to his two friends who are dwarfs.")
