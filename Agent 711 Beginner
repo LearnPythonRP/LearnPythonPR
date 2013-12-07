@@ -7,94 +7,120 @@ __author__ = 'Agent 711'
 # This script Must user 5 different types of operators
 # Script must be something useful. In programming you can be given the material but it is up to you to create a program
 # Have fun!
-decision = "y"
-while decision == "y":
-    print("Welcome to Ancient Astronauts")
-    print("You wake up in and get out of bed and are under attack by another ship and you can not tell who it is.\n"
-          "You run to the caption to find him dead along with all of the other of your crew members. \n"
+a = 0   # "a" is set equal to 0
+while a < 10: # while a is less than 10 it will repeat the statement below
+    a += 1 # "a" is set to 0 so it will keep adding 1 until the statement above is true
+    print('1010101010101010101010101111111110101010101010101010101010101010101101010101010\n'   # this statement will be repeated until the statement is true
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'   # this is all the same sting until the end of the parentheses
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n'
+          '1001010101010101010101010101010100101010101010101010101010101010101010101010101\n')
+decision = "y"  # set the decision given to you below
+while decision == "y":  # when your decision is y the program will be repeated from here
+    print("Welcome to Ancient Astronauts")  # this will print this statement
+    print("You wake up in and get out of bed and are under attack by another ship and you can not tell who it is.\n"   # this statement will be printed
+          "You run to the caption to find him dead along with all of the other of your crew members. \n"    # \n will start a new line
           "You run to an escape pod and fly into a wormhole because that is you only hope of survival.\n"
           "You fly to this planet that looks suitable for life and there you find a beautiful woman asleep and you\n "
           "decide to have sex with her iscase you end up dieing.\n"
           "The woman's name was Marry and you stay around long enough for the baby to be\n"
           "born and the baby is named Jesus. Soon after you go back up into space in your ship in search for another\n "
           "wormhole to send you back to your world.")
-    print(" ")
-    print("There is only one way to go witch is to the North there is a bright star\n")
-    print(" ")
-    helps = input("Please type everything in lower case now please hit enter.")
-    choice = input(">>> ")
+    print(" ")  # I added this to add a space in the intro of the game to the and the game play
+    print("There is only one way to go witch is to the North there is a bright star\n") # prints statement
+    print(" ") # blank line
+    print("Please type everything in lower case and to restart hit enter until it restarts.\n"  # this line is printed
+                  "Now please hit enter.")  # this one is also printed
+    choice = input(">>> ") # give you a spot to type whats wanted
 
-    if choice == "north":
+    if choice == "north":   # if your choice is north the statement below will be printed
         print("The trip to the star is longer than you thought it would be and you realize your you ship\n"
               "is low on energy. To the west the is a blue planet and to the east there is a red planet\n"
               "you know either one has the right amount of radiation but you don't know about the life forms.")
-    choice = input(">>> ")
+    choice = input(">>> ")  # another spot for a response
 
-    if choice == "west":
+    if choice == "west":    # if  west is inputted print the statement below
         print("You arrive at the blue planet and as you are refueling you see a large ship so you walk over\n"
               "to it and see a large alien you do not know if it is friendly or not should you kill giant or\n"
               "try to befriend giant")
-    elif choice == "east":
+    elif choice == "east":  # if west had been inputted instead of east the statement below will be printed
         print("As you try to land on the red planet you crash your ship but you are in luck there is a bigger\n"
               "nicer ship than your escape pod. You walk up to it and see an alien dwarf you do not know if it\n"
               "is friendly or not should you kill dwarf or try to befriend dwarf?")
-    choice = input(">>> ")
+    choice = input(">>> ")  # another space for a response
 
-    if choice == "kill dwarf":
+    if choice == "kill dwarf": # if kill dwarf is inputted print the statement below
         print("Good job you killed the dwarf and took his ship.\n"
               " On the ship you find two giants and one dwarf locked up in the jail.\n "
               "You decide to free them and the help you. You decide look around the ship to find the control station.\n"
               "you have two choices go to the left or the right")
-    elif choice == "befriend dwarf":
-        decision = input("The dwarf killed you. Game Over play again y/n")
+    elif choice == "befriend dwarf":    # if befriend dwarf is put in the statement below will be inputted
+        decision = input("The dwarf killed you. Game Over play again y/n")  # if you want to be sent back to the beginning type y
 
-    elif choice == "kill giant":
-        decision = input("You failed to kill the giant and ended up dieing. Game Over would you like to play again y/n")
-    elif choice == "befriend giant":
+    elif choice == "kill giant":    # if you type kill giant the statement below will be inputted
+        decision = input("You failed to kill the giant and ended up dieing. Game Over would you like to play again y/n")    # if you want to be sent back to the beginning type y
+    elif choice == "befriend giant": # if type in befriend giant the statement below will bw typed
         print("The giant turned out to be really friendly and he allows you aboard his ship and he introduces you\n"
               "to his two friends who are dwarfs.\n"
               "You fly of in his ship and as you flying you see a wormhole to the west.")
-    choice = input(">>> ")
+    choice = input(">>> ")  # another spot for a response
 
-    if choice == "right":
+    if choice == "right": # if you type in right the statement below will be inputted
         print("You have found the bathroom there is a sink and a thing that may be a toilet. It looks kinda painful.\n"
               "There is only one door straight ahead of you.")
-    elif choice == "left":
+    elif choice == "left":  # if left is typed in the statement below will bw printed
         print("You enter his bedroom and on his shelf you find lotion and tissues. You decide to not touch them.\n"
               "you have one doorway to your right\n")
-    elif choice == "west":
+    elif choice == "west":  # if west is inputted the statement will be inputted
         decision = input("You fly into the worm whole and it leads you back to earth were you had Jesus so you decide\n"
                          "to check in on him but you find that wormhole had sent you in the future and that he had\n"
                          "been brutally killed 1942 years ago. While you are in shock you end up crashing your ship in\n"
                          "a place in Roswell New Mexico. You get taken away and get tested on in a Lab called Area 51.\n"
                          "In Area 51 you learn that your friends that you had just meet ended up dieing in the crash.\n"
                          ""
-                         "GAME COMPLETED continue y/n")
-    choice = input(">>> ")
+                         "GAME COMPLETED continue y/n") # the game is finished and the player of the game will be ask if he or she will like to play again
+    choice = input(">>> ")   # this is another thing for the player tp type in
 
-    if choice== "straight":
-        print ("You have found the control room and you take off.\n"
-               "There is a wormhole to the east")
-    elif choice == "right":
-        print("You found the control room and you take off.\n"
-              "You see a wormhole close to the west and you decide to fly towards it and you find nothing\n"
+    if choice == "straight":    # if the you type in straight the statement below will be inputted.
+        print("You have found the control room and you take off.\n"     # this statement will be printed
+              "There is a wormhole to the east")    # this will also be printed because it is still apart of the string above
+    elif choice == "right": # if right is inputted the statement below will be printed
+        print("You found the control room and you take off.\n"  # this statement will be printed
+              "You see a wormhole close to the west and you decide to fly towards it and you find nothing\n"    #this is still apart of the line above and so is the next line
               "The only you see two wormholes one to the east and west")
-    choice = input (">>> ")
+    choice = input(">>> ")# this is another spot for a response to be put in
 
-    if choice == "west":
+    if choice == "west":    # if west is inputted
         decision = input("You fly into the worm whole and it leads you back to earth were you had Jesus so you decide\n"
                          "to check in on him but you find that wormhole had sent you in the future and that he had\n"
                          "been brutally killed 1942 years ago. While you are in shock you end up crashing your ship in\n"
                          "a place in Roswell New Mexico. You get taken away and get tested on in a Lab called Area 51.\n"
                          "In Area 51 you learn that your friends that you had just meet ended up dieing in the crash.\n"
                          ""
-                         "GAME COMPLETED continue y/n")
-    elif choice == "east":
+                         "GAME COMPLETED continue y/n")     # the game is finished and the player of the game will be ask if he or she will like to play again
+    elif choice == "east":  # if east is typed in
         decision = input("You fly into the worm whole and it leads you back to earth were you had Jesus so you decide\n"
                          "to check in on him but you find that wormhole had sent you in the future and that he had\n"
                          "been brutally killed 1942 years ago. While you are in shock you end up crashing your ship in\n"
                          "a place in Roswell New Mexico. You get taken away and get tested on in a Lab called Area 51.\n"
                          "In Area 51 you learn that your friends that you had just meet ended up dieing in the crash.\n"
                          ""
-                         "GAME COMPLETED continue y/n")
-        print ("Game over")
+                         "GAME COMPLETED continue y/n")  # the game is finished and the player of the game will be ask if he or she will like to play again
+        choice = input(">>> ")  # this is a place for an answer
