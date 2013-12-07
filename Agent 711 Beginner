@@ -13,12 +13,13 @@ while decision == "y":
     print("You wake up in and get out of bed and are under attack by another ship and you can not tell who it is.\n"
           "You run to the caption to find him dead along with all of the other of your crew members. \n"
           "You run to an escape pod and fly into a wormhole because that is you only hope of survival.\n"
-          "You fly to this planet that looks suitable for life and there you find a beautiful woman asleep and you decide to have sex with her iscase you end up dieing.\n"
-           "The woman's name was Marry and you stay around long enough for the baby to be\n"
-          "born and the baby is named Jesus. Soon after you go back up into space in your ship in search for another wormhole to send you back to your world.")
+          "You fly to this planet that looks suitable for life and there you find a beautiful woman asleep and you\n "
+          "decide to have sex with her iscase you end up dieing.\n"
+          "The woman's name was Marry and you stay around long enough for the baby to be\n"
+          "born and the baby is named Jesus. Soon after you go back up into space in your ship in search for another\n "
+          "wormhole to send you back to your world.")
     print(" ")
-    print("You have two choices to go North or West to the North there is a bright star and to\n"
-          "the West there is three stars that remind you of a belt")
+    print("There is only one way to go witch is to the North there is a bright star\n")
     print(" ")
     helps = input("Please type everything in lower case now please hit enter.")
     choice = input(">>> ")
@@ -27,10 +28,6 @@ while decision == "y":
         print("The trip to the star is longer than you thought it would be and you realize your you ship\n"
               "is low on energy. To the west the is a blue planet and to the east there is a red planet\n"
               "you know either one has the right amount of radiation but you don't know about the life forms.")
-    elif choice == "west":
-        print("You travel to your ship is inline with the three stars you see a ship that looks a lot like\n"
-              "One of the long distance fliers that was aboard your mothership so you hed in its direction\n"
-              "hoping it would see you and pick you up.")
     choice = input(">>> ")
 
     if choice == "west":
@@ -40,11 +37,14 @@ while decision == "y":
     elif choice == "east":
         print("As you try to land on the red planet you crash your ship but you are in luck there is a bigger\n"
               "nicer ship than your escape pod. You walk up to it and see an alien dwarf you do not know if it\n"
-              "is friendly or not should you kill dwarf or try to befriend dwarf ?")
+              "is friendly or not should you kill dwarf or try to befriend dwarf?")
     choice = input(">>> ")
 
     if choice == "kill dwarf":
-        print("Good job you killed the dwarf and took his ship")
+        print("Good job you killed the dwarf and took his ship.\n"
+              " On the ship you find two giants and one dwarf locked up in the jail.\n "
+              "You decide to free them and the help you. You decide look around the ship to find the control station.\n"
+              "you have two choices go to the left or the right")
     elif choice == "befriend dwarf":
         decision = input("The dwarf killed you. Game Over play again y/n")
 
@@ -52,4 +52,49 @@ while decision == "y":
         decision = input("You failed to kill the giant and ended up dieing. Game Over would you like to play again y/n")
     elif choice == "befriend giant":
         print("The giant turned out to be really friendly and he allows you aboard his ship and he introduces you\n"
-              "to his two friends who are dwarfs.")
+              "to his two friends who are dwarfs.\n"
+              "You fly of in his ship and as you flying you see a wormhole to the west.")
+    choice = input(">>> ")
+
+    if choice == "right":
+        print("You have found the bathroom there is a sink and a thing that may be a toilet. It looks kinda painful.\n"
+              "There is only one door straight ahead of you.")
+    elif choice == "left":
+        print("You enter his bedroom and on his shelf you find lotion and tissues. You decide to not touch them.\n"
+              "you have one doorway to your right\n")
+    elif choice == "west":
+        decision = input("You fly into the worm whole and it leads you back to earth were you had Jesus so you decide\n"
+                         "to check in on him but you find that wormhole had sent you in the future and that he had\n"
+                         "been brutally killed 1942 years ago. While you are in shock you end up crashing your ship in\n"
+                         "a place in Roswell New Mexico. You get taken away and get tested on in a Lab called Area 51.\n"
+                         "In Area 51 you learn that your friends that you had just meet ended up dieing in the crash.\n"
+                         ""
+                         "GAME COMPLETED continue y/n")
+    choice = input(">>> ")
+
+    if choice== "straight":
+        print ("You have found the control room and you take off.\n"
+               "There is a wormhole to the east")
+    elif choice == "right":
+        print("You found the control room and you take off.\n"
+              "You see a wormhole close to the west and you decide to fly towards it and you find nothing\n"
+              "The only you see two wormholes one to the east and west")
+    choice = input (">>> ")
+
+    if choice == "west":
+        decision = input("You fly into the worm whole and it leads you back to earth were you had Jesus so you decide\n"
+                         "to check in on him but you find that wormhole had sent you in the future and that he had\n"
+                         "been brutally killed 1942 years ago. While you are in shock you end up crashing your ship in\n"
+                         "a place in Roswell New Mexico. You get taken away and get tested on in a Lab called Area 51.\n"
+                         "In Area 51 you learn that your friends that you had just meet ended up dieing in the crash.\n"
+                         ""
+                         "GAME COMPLETED continue y/n")
+    elif choice == "east":
+        decision = input("You fly into the worm whole and it leads you back to earth were you had Jesus so you decide\n"
+                         "to check in on him but you find that wormhole had sent you in the future and that he had\n"
+                         "been brutally killed 1942 years ago. While you are in shock you end up crashing your ship in\n"
+                         "a place in Roswell New Mexico. You get taken away and get tested on in a Lab called Area 51.\n"
+                         "In Area 51 you learn that your friends that you had just meet ended up dieing in the crash.\n"
+                         ""
+                         "GAME COMPLETED continue y/n")
+        print ("Game over")
