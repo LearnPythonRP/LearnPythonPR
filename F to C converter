@@ -1,0 +1,15 @@
+__author__ = 'Agent 711'
+decision = "y"  # set decision to "y"
+while decision == "y":  # while decision is equal to y run the below code
+    a = input("input 1")    # a is equal to what ever is typed in
+    b = input("Celsius? Fahrenheit?")  # b is either Celsius or Fahrenheit
+    answer = 0  # the default answer is equal to 0
+    d = float(a)    # d is equal to what ever amount is typed in for a
+    if b == "Fahrenheit": # if b is Fahrenheit
+        answer = d-32 / 1.80
+    else:   # if all else fails do following command
+        answer = d - 32 / 1.80
+    print(answer)   # it will say the answer
+    decision = input("Do you wish to continue? y/n?")   # ask if you want to continue
+    # not finished
+    # F-32 over 1.8
